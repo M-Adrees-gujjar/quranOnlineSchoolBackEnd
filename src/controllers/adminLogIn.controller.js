@@ -1,10 +1,10 @@
 
 const {createAdmin,findAdmin} = require('../models/adminLogIn.model');
 
-function Testing(req, res) {
+async function Testing(req, res) {
     console.log("App is Working....");
     res.send({
-        message: "App is working..."
+        message: "App is working...",response
     })
 }
 
